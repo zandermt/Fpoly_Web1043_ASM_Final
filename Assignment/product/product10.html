@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLVCK Tracksuit zip up jacket</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="cart-notification" class="hidden">
+    <p>Đã thêm sản phẩm vào giỏ hàng!</p>
+  </div>
+  
+    <header class="header">
+        <div class="container-header">
+            <div class="header-leftbox">
+                <ul>
+                    <li><a href="../allitems.html">SHOP</a></li>
+                    <li><a href="../location.html">LOCATION</a></li>
+                    <li><a href="https://linktr.ee/blvckclothing">SOCIAL</a></li>
+                </ul>
+            </div>
+            <div class="header-centerbox">
+                <a href="../index.html">
+                    <img class="header-logo" src="../Image/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-rightbox">
+                <ul>
+                    <li><a href="../gallery.html">GALLERY</a></li>
+                    <li><a href="../location.html">CONTACT</a></li>
+                    <li><a href="#" id="cart-button">CART</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="../allitems.html">ALL ITEMS</a></li>
+        <li><a href="../tshirts.html">T-SHIRTS</a></li>
+        <li><a href="#">OUTERWEARS <img src="../Image/felldownicon.png" alt=""></a>
+          <ul class="menu-con">
+            <li><a href="../hoodies.html">HOODIE</a></li>
+            <li><a href="../jackets.html">JACKET</a></li>
+            <li><a href="../allofouterwears.html">ALL</a></li>
+          </ul>
+        </li>
+        <li><a href="#">BOTTOMS <img src="../Image/felldownicon.png" alt=""></a>
+          <ul class="menu-con">
+            <li><a href="../pants.html">PAINTS</a></li>
+            <li><a href="../shorts.html">SHORTS</a></li>
+            <li><a href="../boxers.html">BOXER</a></li>
+            <li><a href="../allofbottoms.html">All</a></li>
+          </ul>
+        </li>
+        <li><a href="#">THÔNG TIN CỬA HÀNG <img src="../Image/felldownicon.png" alt=""></a>
+          <ul class="menu-con">
+            <li><a href="../location.html">ĐỊA CHỈ LIÊN HỆ</a></li>
+            <li><a href="../returnPolicy.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main-product1">
+         <!-- Left Column / Product Image -->
+  <div class="left-column">
+    <img data-image="dark-green" class="active" src="https://bizweb.dktcdn.net/thumb/1024x1024/100/513/302/products/z5391637905830-3736e1792a97260751623829f850b07d-1-1714299017834.jpg" alt="">
+  </div>
+ 
+ 
+  <!-- Right Column -->
+  <div class="right-column">
+ 
+    <!-- Product Description -->
+    <div class="product-description">
+      <span>Jackets</span>
+      <h1>BLVCK Tracksuit zip up jacket</h1>
+      <p>BLVCK Tracksuit zip up jacket Chất liệu: Vải dù. Mô tả: Áo khoác dù thể thao này có 2 lớp gồm lớp dù dày dặn bên ngoài lớp dù mỏng bên trong, có 2 túi ngoài và 2 túi phụ bên trong, bo áo được làm từ bo thun có...</p>
+    </div>
+ 
+    <!-- Product Configuration -->
+    <div class="product-configuration">
+ 
+      <!-- Product Color -->
+      <div class="product-color">
+        <span>Color:</span>
+ 
+        <div class="color-choose">
+          <div>
+            <input data-image="black" type="radio" id="black" name="color" value="black" checked>
+            <label for=""><span></span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="size-config">
+        <span>Lựa chọn size:</span>
+        <div class="size-choose">
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+          <button>XL</button>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Product Pricing -->
+    <div class="product-price">
+      <span>Giá: 580.000đ</span>
+      <a href="#" class="cart-btn">Add to cart</a>
+    </div>
+  </div>
+    </main>
+
+    <div class="SHOP-CART hidden">
+      <section class="cart">
+        <p style="font-size: 50px; font-weight: bold;">Giỏ Hàng</p>
+        <form action="">
+          <table>
+            <thead>
+              <tr>
+                <th>Sản Phẩm</th>
+                <th>Size</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th>Chọn</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td style="display: flex; align-items: center;"></td>
+                <td></td>
+                <td><input style="width: 60px;" type="number" value="1" min="0"></td>
+                <td><span>Giá: 320.000đ</span></td>
+                <td style="cursor: pointer;">Xoá</td>
+              </tr> -->
+            </tbody>
+          </table>
+          <div class="totle-price">
+            <p style="font-weight: bold; font-size: 25px;">Tổng tiền:<span style="padding-left: 10px;"> </span></p>
+          </div>
+          <button style="margin-top: 20px;" class="Pay"><strong style="font-size: 20px;">Thanh toán</strong></button>
+        </form>
+      </section>
+    </div>
+
+    <footer class="footer">
+        <p>
+            STORE : 36 Trần Huy Liệu, P11, Phú Nhuận (FLAGSHIP Store)
+            <br>
+            ĐIỆN THOẠI : 0963639122 (10:00am - 22:00pm)
+            <br>
+            EMAIL : Blvckclothingvn@gmail.com
+            <br>
+            WEBSITE: https://blvck-clothing.com/
+        </p>
+    </footer>
+
+    <script src="productJS.js"></script>
+</body>
+
+</html>
